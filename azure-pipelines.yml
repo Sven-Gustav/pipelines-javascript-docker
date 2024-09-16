@@ -2,7 +2,8 @@ trigger:
   - main
 
 pool:
-  vmImage: 'ubuntu-latest' 
+  name: ControlInt
+  demands: GeneralWindowsBuild
 
 variables:
   imageName: 'pipelines-javascript-docker'
